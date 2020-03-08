@@ -1,0 +1,244 @@
+body {
+  	background-image: url("../images/curvas_nivel.png");
+  	background-color: white !important;
+  	font-family: sans-serif; /* 1 */
+  	-ms-text-size-adjust: 100%; /* 2 */
+  	-webkit-text-size-adjust: 100%; /* 2 */
+}
+
+
+/* CONTENT */
+.content {
+	background-color: white;
+	margin: 0 auto 0 auto;
+	width: 1080px;
+	box-shadow: 0px 0px 15px 2px rgba(153,153,153,1);
+	-webkit-box-shadow: 0px 0px 15px 2px rgba(153,153,153,1);
+	-moz-box-shadow: 0px 0px 15px 2px rgba(153,153,153,1);
+	box-shadow: 0px 0px 15px 2px rgba(153,153,153,1);
+}
+
+
+/* SLIDER-BAR */
+
+
+
+/* DATA GIS */
+/*.data-gis .seccion {
+	width: 30.1%;
+}
+*/
+
+/* DATA GIS y SERVICES WMS */
+.data-gis .seccion,
+.services-wms .seccion {
+	border: 2px solid #e5e5e5;
+	margin: 20px 15px;
+	position: relative;
+	display: inline-block;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.data-gis .seccion p {
+	display: block;
+	margin: 0;
+}
+
+.data-gis .seccion > p:nth-child(1),
+.services-wms .seccion > p:nth-child(1) {
+	font-size: 25px; /* 1ra fila */
+}
+
+.data-gis .seccion > p:nth-child(2),
+.services-wms .seccion > p:nth-child(2) {
+	font-size: 40px; /* 2da fila */
+}
+
+.data-gis .seccion:nth-child(1) > p:nth-child(2) {
+	color: #23649e; /* Color - Catálogo de Metadatos */
+}
+
+.data-gis .seccion:nth-child(2) > p:nth-child(2) {
+	color: #64a01c; /* Color - Visor Catastral */
+}
+
+.data-gis .seccion:nth-child(3) > p:nth-child(2) {
+	color: #b3a31a; /* Color - Servicios WMS | Institucionales */
+}
+
+.data-gis .seccion:nth-child(1) > span:nth-child(3) {
+	/* Border SUPERIOR - Catálogo de Metadatos */
+	border-left: 5px solid #23649e;
+	border-top: 5px solid #23649e;
+	top: -2px;
+	left: -2px;
+}
+
+.data-gis .seccion:nth-child(1) > span:nth-child(4) {
+	/* Border INFERIOR - Catálogo de Metadatos */
+	border-right: 5px solid #23649e;
+	border-bottom: 5px solid #23649e;
+	bottom: -2px;
+	right: -2px;
+}
+
+.data-gis .seccion:nth-child(2) > span:nth-child(3) {
+	/* Border SUPERIOR - Visor Catastral */
+	border-left: 5px solid #64a01c;
+	border-top: 5px solid #64a01c;
+	top: -2px;
+	left: -2px;
+}
+
+.data-gis .seccion:nth-child(2) > span:nth-child(4) {
+	/* Border INFERIOR - Visor Catastral */
+	border-right: 5px solid #64a01c;
+	border-bottom: 5px solid #64a01c;
+	bottom: -2px;
+	right: -2px;
+}
+
+.data-gis .seccion:nth-child(3) > span:nth-child(3) {
+	/* Border SUPERIOR - Servicios WMS | Institucionales */
+	border-left: 5px solid #b3a31a;
+	border-top: 5px solid #b3a31a;
+	top: -2px;
+	left: -2px;
+}
+
+.data-gis .seccion:nth-child(3) > span:nth-child(4) {
+	/* Border INFERIOR - Servicios WMS | Institucionales*/
+	border-right: 5px solid #b3a31a;
+	border-bottom: 5px solid #b3a31a;
+	bottom: -2px;
+	right: -2px;
+}
+
+/* SERVICES WMS */
+
+.services-wms .seccion p {
+	display: inline-block;
+	margin: 0;
+}
+
+/*
+.services-wms .seccion {
+	width: 96.7%;
+}
+*/
+
+.services-wms .seccion:nth-child(1) > p:nth-child(2) {
+	color: #9e9e9e /* Color - Información Catastral */
+}
+
+.services-wms .seccion:nth-child(1) > span:nth-child(3) {
+	/* Border SUPERIOR - Información Catastral */
+	border-left: 5px solid #9e9e9e;
+	border-top: 5px solid #9e9e9e;
+	top: -2px;
+	left: -2px;
+}
+
+.services-wms .seccion:nth-child(1) > span:nth-child(4) {
+	/* Border INFERIOR - Información Catastral */
+	border-right: 5px solid #9e9e9e;
+	border-bottom: 5px solid #9e9e9e;
+	bottom: -2px;
+	right: -2px;
+}
+
+/* SERVICES WMS - CONTENIDO */
+/*
+.services-wms .seccion .seccion-categorias .seccion {
+	border: none;
+	display: inline-block;
+	position: relative;
+	margin: 5px;
+	height: 150px;
+	width: 23.5%;
+}
+*/
+
+.services-wms .seccion .seccion-categorias .obras {
+	background-color: #439aae;
+}
+
+.services-wms .seccion .seccion-categorias .sostenible {
+	background-color: #2e6d02;
+}
+
+.services-wms .seccion .seccion-categorias .administracion {
+	background-color: #d5d5d5;
+}
+
+.services-wms .seccion .seccion-categorias .educacionCultural {
+	background-color: #4d4d4d;
+}
+
+.services-wms .seccion .seccion-categorias .presupuesto {
+	background-color: #d6ae00;
+}
+
+.services-wms .seccion .seccion-categorias .seguridadCiudadana {
+	background-color: #336799;
+}
+
+.services-wms .seccion .seccion-categorias .autorizacionControl {
+	background-color: #999999;
+}
+
+.services-wms .seccion .seccion-categorias .administracionTributaria {
+	background-color: #24a451;
+}
+
+.services-wms .seccion .seccion-categorias >.seccion img,
+.services-wms .seccion .seccion-categorias >.seccion p {
+	position: absolute;
+	color: white;
+	left: 0;
+	
+}
+.services-wms .seccion .seccion-categorias >.seccion img {
+	top: 0;
+	margin: 10px 0 0 13px;
+	
+}
+.services-wms .seccion .seccion-categorias >.seccion p {
+	bottom: 0;
+	margin: 0 13px 13px 13px;
+}
+
+/* FOOTER */
+.content .footer {
+	background-color: red;
+}
+
+/* Bordes generales a las secciones */
+.data-gis, .services-wms{
+	margin: 0 15px;
+	box-sizing: border-box;
+	word-wrap: break-word;
+}
+
+.data-gis .seccion > span,
+.services-wms .seccion > span {
+	/*Border de todo  DATA-GIS */
+	background: none !important;
+	position: absolute;
+	width: 35%;
+	height: 45%
+}
+
+.data-gis .seccion:hover
+{
+	background-color: rgba(158,158,158,0.1);
+	cursor: pointer;
+}
+
+.services-wms .seccion-categorias .seccion:hover {
+	text-shadow: 2px 2px 2px rgba(77,77,77,1);
+	background-color: rgba(158,158,158,0.1);
+	cursor: pointer;
+}
+ 

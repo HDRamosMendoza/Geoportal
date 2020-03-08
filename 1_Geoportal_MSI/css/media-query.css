@@ -1,0 +1,106 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.content {
+		width: 100%;
+	}
+	.data-gis .seccion {
+		width: 95%;
+	}
+	.services-wms .seccion {
+		width: 95%;
+	}
+	.services-wms .seccion .seccion-categorias .seccion {
+		border: none;
+		display: inline-block;
+		position: relative;
+		margin: 5px;
+		height: 150px;
+		width: 98%;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.content {
+		width: 100%;
+	}
+	.data-gis .seccion {
+		vertical-align: top;
+		width: 44.6%;
+	}
+	.services-wms .seccion {
+		width: 96.7%;
+	}
+	.services-wms .seccion .seccion-categorias .seccion {
+		border: none;
+		display: inline-block;
+		position: relative;
+		margin: 5px;
+		height: 150px;
+		width: 47.4%;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.content {
+		width: 100%;
+	}
+	.data-gis .seccion {
+		vertical-align: top;
+		width: 45.4%;
+	}
+	.services-wms .seccion {
+		width: 96.7%;
+	}
+	.services-wms .seccion .seccion-categorias .seccion {
+		border: none;
+		display: inline-block;
+		position: relative;
+		margin: 5px;
+		height: 150px;
+		width: 48.2%;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.content {
+		width: 100%;
+	}
+	.data-gis .seccion {
+		width: 30%;
+	}
+	.services-wms .seccion {
+		width: 96.7%;
+	}
+	.services-wms .seccion .seccion-categorias .seccion {
+		border: none;
+		display: inline-block;
+		position: relative;
+		margin: 5px;
+		height: 150px;
+		width: 31.5%;
+	}	
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1080px) {
+	.content {
+		width: 1080px;
+	}
+	.data-gis .seccion {
+		width: 30.1%;
+	}
+	.services-wms .seccion {
+		width: 96.7%;
+	}
+	.services-wms .seccion .seccion-categorias .seccion {
+		border: none;
+		display: inline-block;
+		position: relative;
+		margin: 5px;
+		height: 150px;
+		width: 23.5%;
+	}
+}
