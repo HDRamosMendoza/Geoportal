@@ -6,8 +6,8 @@ body {
   	-webkit-text-size-adjust: 100%; /* 2 */
 }
 
-
 /* CONTENT */
+
 .content {
 	background-color: white;
 	margin: 0 auto 0 auto;
@@ -18,18 +18,64 @@ body {
 	box-shadow: 0px 0px 15px 2px rgba(153,153,153,1);
 }
 
+/* MENU */
+
+.menu {
+	margin: 0 30px !important;
+	position: relative;
+	box-sizing: border-box;
+	word-wrap: break-word;
+}
+
+.menu .logo {
+	background-image: url('../images/msi.jpg');
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: 10% 9%;
+  	background-position: 70px 10px;
+  	width: 150px;
+  	height: 93px;
+  	padding: 20px 0 0 120px;
+}
+
+.menu .logo p {
+	margin: 0;
+}
+
+.menu .logo p:nth-child(1) {
+	font-size: 30px; /* 2da fila */
+	font-weight: bold;
+	color: #3f511d;
+}
+
+.menu .logo p:nth-child(2),
+.menu .logo p:nth-child(3) {
+	font-size: 12px; /* 1ra fila */
+}
+
+.menu .carta {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
 
 /* SLIDER-BAR */
 
-
-
-/* DATA GIS */
-/*.data-gis .seccion {
-	width: 30.1%;
+.slider-bar {
+	background-color: #d5d5d5;
+	height: 210px;
 }
-*/
 
 /* DATA GIS y SERVICES WMS */
+
+/* Bordes generales a las secciones */
+.data-gis,
+.services-wms{
+	margin: 0 15px;
+	box-sizing: border-box;
+	word-wrap: break-word;
+}
+
 .data-gis .seccion,
 .services-wms .seccion {
 	border: 2px solid #e5e5e5;
@@ -202,7 +248,6 @@ body {
 .services-wms .seccion .seccion-categorias >.seccion img {
 	top: 0;
 	margin: 10px 0 0 13px;
-	
 }
 .services-wms .seccion .seccion-categorias >.seccion p {
 	bottom: 0;
@@ -214,12 +259,6 @@ body {
 	background-color: red;
 }
 
-/* Bordes generales a las secciones */
-.data-gis, .services-wms{
-	margin: 0 15px;
-	box-sizing: border-box;
-	word-wrap: break-word;
-}
 
 .data-gis .seccion > span,
 .services-wms .seccion > span {
@@ -237,8 +276,13 @@ body {
 }
 
 .services-wms .seccion-categorias .seccion:hover {
-	text-shadow: 2px 2px 2px rgba(77,77,77,1);
 	background-color: rgba(158,158,158,0.1);
+	border: 2px solid #e5e5e5 !important;
 	cursor: pointer;
+	text-shadow: 2px 2px 2px rgba(77,77,77,1);
+}
+
+.services-wms .seccion-categorias .seccion:hover img {
+	filter: drop-shadow(5px 5px 10px #444) !important;
 }
  
