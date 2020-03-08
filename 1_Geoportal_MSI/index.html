@@ -11,11 +11,12 @@
     <meta name="description"  content="Geoportal de Infraestructura de Datos Abiertos - IDE">
     <meta name="keywords"     content="Interoperabilidad, Municipalidad de San Isidro">
     <meta name="author"       content="Heber Daniel Ramos Mendoza">
-    <meta name="viewport"     content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"     content="width=device-width, initial-scale=1.0, user-scalable=yes">
     
     <!-- CSS  -->
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/media-query.css">
+    <link rel="stylesheet" type="text/css" href="./css/slider.css">
     
     <!-- JS -->
     
@@ -45,17 +46,90 @@
 
       <!-- open SLIDER -->
       <section class="slider-bar">
-        <center>
-          <br>
-          <h1> Página en desarrollo </h1>
-          <p>
-            "La página es elásstica y adaptable a cualquier disponitivo"
-          </p>
-          <p>
-            Atte. H. Daniel Ramos Mendoza / Analista GIS - GIS Developer
-          </p>
-          <a href="https://hdramosmendoza.github.io/Perfil-Profesional/" target="_blank">Página web del ESPCIALISTA GIS.</a>
-        <center>
+        <div class="slider-container">
+          <div class="slider-control left inactive"></div>
+          <div class="slider-control right"></div>
+          <ul class="slider-pagi"></ul>
+          <div class="slider">
+            <div class="slide slide-0 active">
+              <div class="slide__bg"></div>
+              <div class="slide__content">
+                <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                  <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                </svg>
+                <div class="slide__text">
+                  <h2 class="slide__text-heading">Gestión Transparente</h2>
+                  <p class="slide__text-desc">
+                    Como parte del compromiso de la Municipalidad de San Isidro de impulsar un “gobierno abierto”, transparente y participativo, la actual gestión impulsa la innovación y el desarrollo de herramientas creativas que faciliten a los ciudadanos el acceso a la información. 
+                  </p>
+                  <p class="slide__text-desc">
+                    En ese marco, nos hemos unido a la iniciativa internacional de apertura de datos públicos (Open Data), a través de la creación del Portal de Datos Abiertos, que pone a disposición del público en general, la información de nuestra institución, a fin de fomentar la transparencia e incentivar la creación de nuevas herramientas tecnológicas a partir en información pública.
+                  </p>
+                  <!--<a class="slide__text-link">Project link</a>-->
+                </div>
+              </div>
+            </div>
+            <div class="slide slide-1 ">
+              <div class="slide__bg"></div>
+              <div class="slide__content">
+                <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                  <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                </svg>
+                <div class="slide__text">
+                  <h2 class="slide__text-heading">¿Qué son datos Abiertos?</h2>
+                  <p class="slide__text-desc">
+                    'Datos abiertos' u 'open data' (en inglés), es parte una iniciativa mundial de ‘Gobierno Abierto’, que busca que la información, en especial aquella que poseen las administraciones públicas, se publique de forma abierta, regular y reutilizable para que pueda ser empleada y redistribuida libremente por personas o instituciones, sin limitaciones, patentes o licencias.
+                  </p>
+                  <p class="slide__text-desc">
+                    La 'información liberada' fomenta la participación ciudadana, al facilitar el desarrollo de iniciativas tecnológicas que pondrán a disposición de la sociedad en general.
+                  </p>
+                  <!--<a class="slide__text-link">Project link</a>-->
+                </div>
+              </div>
+            </div>
+            <div class="slide slide-2">
+              <div class="slide__bg"></div>
+              <div class="slide__content">
+                <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                  <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                </svg>
+                <div class="slide__text">
+                  <h2 class="slide__text-heading">¿Qué información Encontrarás?</h2>
+                  <p class="slide__text-desc">
+                    En este portal encontrarás bases de datos sobre diversos temas que podrás compartir, distribuir, adaptar, utilizar o reutilizar así como para crear obras derivadas de manera libre y gratuita. Esto significa que no requieres de ninguna licencia o permiso especial para hacer uso de estos datos, tanto para fines comerciales como no comerciales.
+                  </p>
+
+                  <p class="slide__text-desc">
+                    Nos interesa conocer tu experiencia como usuario y como estás utilizando estos datos. Si has creado algún aplicativo podemos difundirlo en este portal. Escríbenos para conocer tu opinión y qué otras bases de datos te interesaría que publiquemos. Estamos realizando un esfuerzo para publicar por defecto los datos, es decir sin esperar a que el ciudadano nos lo solicite, priorizando aquellos datos que son más demandados y que cuentan con facilidades técnicas para su publicación.
+                  </p>
+
+                  <p class="slide__text-desc">
+                    Contáctanos en:
+                    <strong>
+                      innovacion@munisanisidro.gob.pe
+                    </strong>
+                  </p>
+                  <!--<a class="slide__text-link">Project link</a>-->
+                </div>
+              </div>
+            </div>
+            <!--
+            <div class="slide slide-3">
+              <div class="slide__bg"></div>
+              <div class="slide__content">
+                <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                  <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                </svg>
+                <div class="slide__text">
+                  <h2 class="slide__text-heading">Project name 4</h2>
+                  <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+                  <a class="slide__text-link">Project link</a>
+                </div>
+              </div>
+            </div>
+            -->            
+          </div>
+        </div>
         <!-- PASS -->
       </section>
       <!-- close SLIDER -->
@@ -159,7 +233,18 @@
 
       <!-- open FOOTER -->
       <footer class="footer">
-        <!-- PASS -->
+        <br>
+        <center>
+          <h1> **** Página en desarrollo **** </h1>
+          <p>
+            "La página es elásstica y adaptable a cualquier disponitivo"
+          </p>
+          <p>
+            Atte. H. Daniel Ramos Mendoza / Analista GIS - GIS Developer
+          </p>
+          <a href="https://hdramosmendoza.github.io/Perfil-Profesional/" target="_blank">Página web del ESPCIALISTA GIS.</a>
+        </center>
+        <br>
       </footer>
       <!-- close FOOTER -->
         
@@ -167,6 +252,8 @@
     <!-- close CONTENT -->
 
     
-    <!--<script src="js/main.js"></script>-->
+    <!-- JS -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script  src="./js/script.js"></script>
   </body>
 </html>

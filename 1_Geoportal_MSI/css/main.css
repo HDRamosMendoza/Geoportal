@@ -86,7 +86,12 @@ body {
 
 .slider-bar {
 	background-color: #d5d5d5;
-	height: 210px;
+	height: 288px;
+	margin: 0 0 15px 0;
+	
+}
+.slider-bar .slider-container {
+	overflow: hidden !important;
 }
 
 /* DATA GIS y SERVICES WMS */
@@ -102,7 +107,7 @@ body {
 .data-gis .seccion,
 .services-wms .seccion {
 	border: 2px solid #e5e5e5;
-	margin: 20px 15px;
+	margin: 15px;
 	position: relative;
 	display: inline-block;
 	padding: 20px;
@@ -279,7 +284,7 @@ body {
 
 /* FOOTER */
 .content .footer {
-	background-color: red;
+	background-color: white;
 }
 
 
