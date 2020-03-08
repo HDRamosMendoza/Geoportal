@@ -30,33 +30,56 @@ body {
 .menu .logo {
 	background-image: url('../images/msi.jpg');
   	background-repeat: no-repeat;
-  	background-attachment: fixed;
-  	background-size: 10% 9%;
-  	background-position: 70px 10px;
+  	background-size: 120px 93%;
   	width: 150px;
   	height: 93px;
   	padding: 20px 0 0 120px;
 }
 
-.menu .logo p {
-	margin: 0;
+.menu .logo p,
+.menu .carta p {
+	margin: 0;	
 }
 
 .menu .logo p:nth-child(1) {
-	font-size: 30px; /* 2da fila */
+	font-size: 30px; /* 1da fila */
 	font-weight: bold;
 	color: #3f511d;
 }
 
-.menu .logo p:nth-child(2),
-.menu .logo p:nth-child(3) {
-	font-size: 12px; /* 1ra fila */
+.menu .logo p:nth-child(2) {
+	font-size: 12px; /* 2ra fila */
 }
 
 .menu .carta {
 	position: absolute;
 	right: 0;
 	bottom: 0;
+	width: 193px;
+	margin: 0 0 15px 0;
+}
+
+.menu .carta p:nth-child(1) {
+	font-size: 30px; /* 1da fila */
+	font-weight: bold;
+	color: #679f1a;
+	width: 80px;
+}
+
+.menu .carta p:nth-child(2) {
+	font-size: 12px; /* 2da fila */
+	font-weight: bold;
+	padding-top: 2px;
+	padding-left: 5px;
+	width: 100px;
+	border-left: 2px solid #679f1a;
+	cursor: pointer;
+}
+
+.menu .carta p {
+	display: inline-block;
+	vertical-align: top;
+	height: 27px;
 }
 
 /* SLIDER-BAR */
