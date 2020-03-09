@@ -283,11 +283,80 @@ body {
 }
 
 /* FOOTER */
-.content .footer {
-	background-color: white;
+.content footer {
+	background-color: rgba(51,51,51,1);
+	color: white;
+	font-size: 12px;
+	padding: 15px 30px;
+	margin-top: 15px;
 }
 
+.content footer section {
+	display: inline-block;
+	vertical-align: top;
+}
 
+.content footer section.footer-2 {
+	float: right;
+}
+
+.content footer h4 {
+	margin: 0 0 10px 0;
+}
+.content footer .footer-1, 
+.content footer .footer-2 {
+	width: 48%;
+}
+
+.content footer p {
+	margin: 1px 0;
+	display: block;
+}
+
+/* Central / Alerta San Isidro / Aló Rentas */
+.content footer p:nth-child(3),
+.content footer p:nth-child(4),
+.content footer p:nth-child(5) {
+	width: 190px;	
+}
+
+.content footer p span {
+	float: right;
+}
+
+.content footer .footer-2 .redes {
+	text-align: right;
+	width: 100%;
+}
+
+.content footer .footer-2 .redes .red-social {
+	width: 25px;
+}
+
+.content footer .footer-2 div {
+	width: 70px;
+}
+
+.content footer .footer-2 .redes .red-social,
+.content footer .footer-2 div {
+	display: inline-block;
+	margin-left: 7px;
+}
+
+.content footer .footer-2 div img {
+	width: 100%;
+}
+
+.content footer .footer-2 p {
+	width: 100%;
+	text-align: right;
+}
+
+.content footer .footer-2 hr {
+	margin-bottom: 10px;
+}
+
+/* */
 .data-gis .seccion > span,
 .services-wms .seccion > span {
 	/*Border de todo  DATA-GIS */
