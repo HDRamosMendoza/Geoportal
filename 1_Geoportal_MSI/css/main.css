@@ -32,7 +32,7 @@ body {
   	background-repeat: no-repeat;
   	background-size: 120px 93%;
   	width: 150px;
-  	height: 93px;
+  	height: 85px;
   	padding: 20px 0 0 120px;
 }
 
@@ -53,21 +53,28 @@ body {
 
 .menu .carta {
 	position: absolute;
-	right: 0;
+	right: -30px;
 	bottom: 0;
 	width: 193px;
-	margin: 0 0 15px 0;
+	margin: 0 0 8px 0;
+	padding: 8px 2px;
+}
+
+.menu .carta:hover {
+	background-color: rgba(103,159,26,0.2);
+	cursor: pointer;
 }
 
 .menu .carta p:nth-child(1) {
-	font-size: 30px; /* 1da fila */
+	font-size: 25px; /* 1da fila */
 	font-weight: bold;
 	color: #679f1a;
+	text-align: right;
 	width: 80px;
 }
 
 .menu .carta p:nth-child(2) {
-	font-size: 12px; /* 2da fila */
+	font-size: 11px; /* 2da fila */
 	font-weight: bold;
 	padding-top: 2px;
 	padding-left: 5px;
@@ -80,6 +87,72 @@ body {
 	display: inline-block;
 	vertical-align: top;
 	height: 27px;
+}
+
+.menu .barra {
+	position: absolute;
+	background-color: #999999;
+	border-right: 4px solid #679f1a;
+	width: 533px;
+	height: 46px;
+	right: -30px;
+	top: 0;
+}
+
+.menu .barra span {
+	position: absolute;
+	top: 0px;
+	width: 0;
+    height: 0;
+    border-right: 23px solid transparent;
+    border-top: 23px solid transparent;
+    border-left: 23px solid white;
+    border-bottom: 23px solid white;
+ }
+
+.menu .barra .acceso {
+	display: inline-block;
+	float: right;
+	color: white;
+	height: 100%;
+	
+	padding: 8px 10px;
+	font-weight: bold;
+	box-sizing: border-box;
+}
+
+.menu .barra .acceso img {
+	width: 25px;
+	float: left;
+	height: 100%;
+	margin-right: 5px;
+}
+
+.menu .barra .acceso:nth-child(2) {
+	width: 175px;
+}
+
+.menu .barra .acceso:nth-child(3) {
+	width: 165px;
+}
+
+.menu .barra .acceso:hover {
+	background-color: #e5e5e5;
+	cursor: pointer;
+	text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.menu .barra .acceso:hover img {
+	filter: drop-shadow(2px 2px 5px #444) !important;
+}
+
+.menu .barra .acceso p {
+	font-size: 14px;
+	margin: 0;
+}
+
+.menu .barra p:nth-child(2) {
+	font-size: 11px !important;
 }
 
 /* SLIDER-BAR */
