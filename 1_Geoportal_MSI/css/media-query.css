@@ -3,6 +3,23 @@
 	.content {
 		width: 100%;
 	}
+	
+	.barra {
+		display: none;
+	}
+
+	#menu-barra {
+		display: block;
+	}
+
+	.menu {
+    	margin: 0 30px 0 0 !important;
+	}
+	.menu .logo p:nth-child(1) {
+		font-size: 20px;
+
+	}
+
 	.data-gis .seccion {
 		width: 95%;
 	}

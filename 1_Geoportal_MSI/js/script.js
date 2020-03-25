@@ -119,5 +119,40 @@ $(document).ready(function() {
     curSlide = $(this).data("page");
     changeSlides();
   });
+
+  /* Activa los widget en uso */
+  fnOpenMenuMovil = function(idElement) {
+      try {
+          /* DOM - Checkbox (input) */
+          const node = document.querySelectorAll("#" + idElement);
+          for (let i = 0; i<node.length; i++) {
+              node[i].addEventListener('click', function(event) {
+                  event.preventDefault();
+                  let idNode = this.getAttribute("name");
+                  let idStyle = document.getElementById(idNode).style;
+                  idStyle.display="block";
+              });
+          }
+      } catch(error) { console.error(error); }
+  };
+  fnOpenMenuMovil('menu-barra');
+
+  fnCloseMenuMovil = function(idElement) {
+      try {
+          /* DOM - Checkbox (input) */
+          const node = document.querySelectorAll("#" + idElement);
+          for (let i = 0; i<node.length; i++) {
+              node[i].addEventListener('click', function(event) {
+                  event.preventDefault();
+                  let idNode = this.getAttribute("name");
+                  let idStyle = document.getElementById(idNode).style;
+                  idStyle.display="none";
+              });
+          }
+      } catch(error) { console.error(error); }
+  };
+  fnCloseMenuMovil('menu-x');
+  
+
   
 });
